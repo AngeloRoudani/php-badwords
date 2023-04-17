@@ -14,9 +14,17 @@
     <title>Badwords</title>
 </head>
 <body>
+
     <h1>Paragrafo</h1>
-    <p><?php echo $paragraph?></p>
+    <p><?php 
+        echo $paragraph;
+    ?></p>
+    <div>Lunghezza paragrafo:<?php echo strlen($paragraph)?></div>
+
     <h1>Paragrafo censurato</h1>
-    <p><?php echo $newParagraph?></p>
+    <p><?php 
+        echo $newParagraph;
+    ?></p>
+    <div>Lunghezza paragrafo:<?php echo strlen($newParagraph)?></div>
 </body>
 </html>

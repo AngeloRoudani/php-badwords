@@ -8,12 +8,14 @@
 </head>
 <body>
     <form action="/php-badwords/censura.php" method="GET">
+        
+        <label for="badword-area">Bad word</label>
         <div>
-            <label for="badword-area">Bad word</label>
             <input name="badword" id="badword-area" type="text" placeholder="parola da censurare">
         </div>
+
+        <label for="paragraph-area">Paragraph</label>
         <div>
-            <label for="paragraph-area">Paragraph</label>
             <textarea name="paragraph" id="paragraph-area" cols="80" rows="30"></textarea>
         </div>
         <button type="submit">Invia</button>
